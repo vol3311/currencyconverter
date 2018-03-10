@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>currency</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./normalize.css">
+        <style>
+            html {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            }
+
+            *,
+            *:before,
+            *:after {
+            -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+            }
+
+            * {
+            margin: 0;
+            padding: 0;
+            }
+
+            .container {
+            max-width: 976px;
+            margin: 0 auto;
+            }
+
+            .screens{
+            display:flex;
+            flex-flow: wrap;
+            }
+            
+            .col-6 {
+            flex-basis: 33.333%;
+            margin-bottom: 16px;
+            }
+
+            img{
+            width: 100%; height: 100%;
+            }
+
+            .video{
+            padding: 32px 0px 64px 0px;
+            } 
+            
+            @media (max-width: 768px){
+                .col-12{
+                    flex-basis:100%;
+                    margin-bottom: 0;
+                }
+            }
+        </style>
+    </head>
+    <body bgcolor="#000000" bgproperties="fixed">
+        <main>
+            <section class="container">
+                <div class="screens">
+                    <div class="col-12 col-6">
+                        <img src="currency_screens_1.png" alt="01_input">
+                    </div>
+                    <div class="col-12 col-6">
+                        <img src="currency_screens_2.png" alt="02">
+                   </div>  
+                   <div class="col-12 col-6">  
+                        <img src="currency_screens_3.png" alt="03_switch">
+                    </div>
+                    <div class="col-12 col-6">
+                        <img src="currency_screens_4.png" alt="04">
+                    </div>
+                    <div class="col-12 col-6">
+                        <img src="currency_screens_5.png" alt="05">
+                    </div>
+                    <div class="col-12 col-6">
+                        <img src="currency_screens_6.png" alt="06">
+                    </div>
+                </div>      
+            </section>
+            <section class="video">
+                <center>
+                    <iframe src="https://player.vimeo.com/video/256040211" width="270" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </center>
+            </section>
+        </main>
+    </body>
+</html>
